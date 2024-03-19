@@ -1,7 +1,7 @@
 .controlPane {
   padding: 24px;
-  /* Optical centering */
-  padding-top: 18px;
+  padding-top: 18px; /* Optical centering */
+  margin-bottom: 32px;
   background-color: white;
   border-radius: 8px;
   /*
@@ -9,13 +9,16 @@
     a little gross, but we haven't seen the tools
     to deal with it yet!
   */
-  margin-bottom: 32px;
+}
+
+.controlPane:last-child {
+  margin-bottom: 0;
 }
 
 .title {
   margin: 0;
   /* Optical centering */
-  margin-bottom: -4px;
+  margin-bottom: 4px;
 }
 
 .metadata {

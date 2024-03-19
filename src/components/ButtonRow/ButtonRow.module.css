@@ -1,2 +1,13 @@
 .buttonRow {
+  /* Implement the effect of taking the horizontal scrolling all the way to the edges of the container */
+  /* First, undo the padding of the parent element with negative margins */
+  /* This shifts the child element to the edges */
+  margin-left: -22px;
+  margin-right: -22px;
+  /* Then shift back for alignment purposes, the scrolling will go all the way to the edge */
+  padding-left: 22px;
+  padding-right: 22px;
+  overflow: auto;
+  white-space: nowrap;
+  padding-bottom: 12px;
 }
